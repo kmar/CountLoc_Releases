@@ -1,5 +1,5 @@
 # CountLoc Releases
-binary releases of my line counting tool
+binary releases of my line counting tool (click releases, then download zip file)
 
 CountLoc v1.9 (c) 2015-18 mar
 
