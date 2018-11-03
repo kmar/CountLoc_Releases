@@ -40,6 +40,7 @@ Duplicate files are detected using md5 hash (and ignored).
 By default, CountLoc doesn't count separate punctuation on a line as code.
 This allows the following code fragments to give the same LOC:
 
+```
 if (x)
 	y();
 
@@ -51,6 +52,7 @@ if (x)
 {
 	y();
 }
+```
 
 partial support for archives (zip/tar/tar.gz and tgz), only deflate supported for zip
 Note to unix users: don't forget to chmod u+x
@@ -103,6 +105,8 @@ changes since 1.0:
 - print punctuation lines in default mode
 - fix EOF handling
 - lexer now supports string literals so this
+```
 	"text /*"
 	"..."
+```
   is properly parsed as 2 loc in C (0 comments)
