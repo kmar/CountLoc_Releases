@@ -6,6 +6,7 @@ CountLoc v1.9 (c) 2015-18 mar
 Supported platforms: x86 (Win), x64 (Linux/OSX)
 
 usage:
+```
 usage: CountLoc [args] <dir> [<dir2> ...]
 args:
 	-h, -? help
@@ -32,6 +33,7 @@ args:
 		is supplied as filename; csv will then
 		be printed to stdout instead
 	-diff <filename> diff results with previously saved csv
+```
 
 Directory is relative to current working directory.
 Duplicate files are detected using md5 hash (and ignored).
