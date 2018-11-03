@@ -1,4 +1,4 @@
-# CountLoc_Releases
+# CountLoc Releases
 binary releases of my line counting tool
 
 CountLoc v1.9 (c) 2015-18 mar
